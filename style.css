@@ -44,11 +44,7 @@ align-items: center;
     text-align: center;
 }
 
-.image {
-    color: white;
-    font-size: 8px;
-    text-align: center;
-}
+
 
 .sign-up img {
     border-radius: 10px;
@@ -64,30 +60,57 @@ align-items: center;
 .info {
     border-top-style: groove;
     border-top-color: white;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
 }
 
 .info .info-cards {
     display:flex;
     background-color: black;
-    margin-bottom: 100px;
-    justify-content: space-between;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 
 .card {
     color: white;
     margin: 50px;
-    flex-wrap: wrap;
 }
 
 .info h2 {
 color: white;
 text-align: center;
+display: inline-flex;
 }
 
 .info-cards {
     display: flex; 
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
     gap: 8px;
 }
+
+
+.quote {
+    color: white;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border-top-style: groove;
+border-top-color: white;
+padding: 80px 0 80px 0;
+}
+
+.quote .quote-text {
+width: 500px;
+}
+
+
 
