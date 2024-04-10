@@ -1,0 +1,93 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: sans-serif, Arial;
+}
+
+
+
+.header {
+display: flex;
+color: white;
+background-color: black;
+justify-content: space-between;
+padding: 0 50px 0 50px;
+align-items: center;
+}
+
+.header-links {
+display: flex;
+gap: 20px;
+font-size: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+.content {
+    display: flex-wrap; 
+    background-color: black;    
+}
+
+.sign-up {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.sign-up-text {
+    color: white;
+    width: 500px;
+    padding-right: 50px;
+    text-align: center;
+}
+
+.image {
+    color: white;
+    font-size: 8px;
+    text-align: center;
+}
+
+.sign-up img {
+    border-radius: 10px;
+    padding-top: 25px
+}
+
+.sign-up-text button {
+    color: white;
+    background-color: black;
+    border-color: white;
+}
+
+.info {
+    border-top-style: groove;
+    border-top-color: white;
+}
+
+.info .info-cards {
+    display:flex;
+    background-color: black;
+    margin-bottom: 100px;
+    justify-content: space-between;
+}
+
+
+.card {
+    color: white;
+    margin: 50px;
+    flex-wrap: wrap;
+}
+
+.info h2 {
+color: white;
+text-align: center;
+}
+
+.info-cards {
+    display: flex; 
+    justify-content: space-between;
+    gap: 8px;
+}
+
