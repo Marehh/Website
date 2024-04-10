@@ -110,7 +110,71 @@ padding: 80px 0 80px 0;
 
 .quote .quote-text {
 width: 500px;
+font-size: 20px;
+color: blueviolet;
 }
 
+.bottomsu {
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+text-align: center;
+    color: white;
+    border-top-style: groove;
+    border-top-color: white;
+    padding-top: 50px;
+    background-color: black;
 
+}
+
+.sign {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0 50px 0;
+}
+.sign .signtext {
+    background-color: #ff9b9b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0.5;
+    gap: 20%;
+    padding: 20px 100px 20px 100px;
+    margin: 50px 0 50px 0;
+    border-style: groove;
+    color: #F9FAF8;
+}
+
+.sub {
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    border-top-style: groove;
+    border-top-color: white;
+    padding-top: 50px;
+
+}
+
+.subbox {
+    display: flex;
+    background-color: rgb(100, 100, 150);
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.subbutton {
+    display: flex;
+    color: red;
+    background-color: black;
+    border-style: groove;
+    border-color: white;
+    margin: 20px 20px 20px 200px;
+}
+
+.subtext {
+    margin: 5px 20px 5px 20px;
+}
 
